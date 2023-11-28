@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Abril+Fatface&family=Caveat&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Poppins:wght@200&family=Quicksand:wght@300&display=swap");
+/* fonts that are imported are Poppins, Quicksand, Caveat, Cormant Daramond, Abril Fatface */
+
+body {
+  background-color: #ede4bd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Quicksand", sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: #000;
+  flex-direction: row;
+  color: aliceblue;
+}
+nav ul li {
+  padding: 10px;
+}
+.logo img {
+  width: 47px;
+  height: auto;
+  padding: 0 8px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container {
+  min-height: 60vh;
+  background-color: #000;
+  color: #fff;
+  font-family: "Caveat", cursive;
+  font-weight: 200;
+  margin: 33px auto;
+  display: flex;
+  width: 70%;
+  border-radius: 12px;
+  padding: 33px;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.songItemContainer {
+  margin-top: 74px;
+}
+.song-item {
+  font-family: "AR One Sans", sans-serif;
+  display: flex;
+  background-color: #b9b9b97a;
+  margin: 15px 0;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 32px;
+}
+.song-item img {
+  height: 50px;
+  width: 50px;
+  margin: 0 23px;
+  padding: 10px 0;
+  border-radius: 50%;
+}
+.song-item i {
+  padding-left: 5px;
+}
+.timeStamp {
+  margin: 0 22px;
+}
+.timeStamp i {
+  cursor: pointer;
+}
+.bottom {
+  position: sticky;
+  height: 150px;
+  background-color: #000;
+  color: #fff;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #ede4bd;
+}
+.icons {
+  margin: 13px;
+}
+.icons i {
+  cursor: pointer;
+}
+.container {
+  min-height: 90vh;
+}
+.songInfoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 8.5vw;
+  height: 50px;
+  font-size: 23px;
+font-family: 'Cormorant Garamond', serif;
+}
+.songInfo{
+  max-width: 55px;
+ max-height: 100px;
+
+  left: 10vw;
+  display: flex;
+}
+
+.songInfo img{
+  box-sizing: border-box;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+opacity: 0;
+transition: opacity 0.3s ease-in;
+
+}
+
+#myProgressBar {
+  width: 80vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width : 679px) {
+.bottom{
+height : 55px;
+}
+
+}
+
+

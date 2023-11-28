@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Spotify clone</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><img src="logo4.png" alt="Spotify Logo">Spotify</li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+<div class="container">
+    <div class="song-list">
+        <h1>Best of NCS - No Copyright Sounds</h1>
+        <div class="songItemContainer">
+            <div class="song-item">
+                <img src="coverImg.jpg" alt="1">
+                <span class="songName">Let me love you</span>
+                <span class="songListPlay"><span class="timeStamp">00:00<i id= "0"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+
+            <div class="song-item">
+                <img src="covers/you-and-me.jpg" alt="1">
+                <span class="songName">You & Me</span>
+                <span class="songListPlay"><span class="timeStamp">00:00<i id= "1"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+            <div class="song-item">
+                <img src="covers/money.jpg" alt="1">
+                <span class="songName">MONEY</span>
+                <span class="songListPlay"><span class="timeStamp">00:00<i id= "2"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+            <div class="song-item">
+                <img src="covers/whistle.jpg" alt="1">
+                <span class="song-item">Whistle</span>
+                <span class="songListPlay"><span class="timeStamp">00:00<i id= "3"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+            <div class="song-item">
+                <img src="covers/popular.jpg" alt="1">
+                <span class="songName">Popular</span>
+                <span class="songListPlay"><span class="timeStamp">00:00<i id= "4"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+            <div class="song-item">
+                <img src="covers/typa-girl.jpg" alt="1">
+                <span class="songName">Typa Girl</span>
+               <span class="songListPlay"><span class="timeStamp">00:00<i id= "5"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+            <div class="song-item">
+                <img src="covers/talk-to-me-nice.jpg" alt="1">
+                <span class="songName">Talk To Me Nice</span>
+                <span class="songListPlay"><span class="timeStamp">00:00<i id= "6"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+            <div class="song-item">
+                <img src="covers/shutdown.jpg" alt="1">
+                <span class="songName">Shutdown</span>
+                <span class="songListPlay"><span class="timeStamp">00:00<i id= "7"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+                        <div class="song-item">
+                <img src="covers/kill.png" alt="1">
+                <span class="songName">Lets Kill This Love</span>
+                <span class="songListPlay"><span class="timeStamp">00:00<i id= "8"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+            <div class="song-item">
+                <img src="covers/we-dont-talk-anymore.jpg" alt="1">
+                <span class="songName">We Don't Talk Anymor</span>
+                <span class="songListPlay"><span class="timeStamp">00:00<i id= "9"class="songItemPlay fa-regular  fa-circle-play" ></i></span>        
+</span>
+            </div>
+        </div>
+    </div>
+    <div class="song-banner"></div>
+</div>
+<div class="bottom">
+    <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+    <div class="icons">
+        <!-- fontawsome icons -->
+        <i class="fa-solid fa-3x fa-backward-step to-make-smaller" id="previous"></i>
+        <i class="fa-regular fa-3x fa-circle-play to-make-smaller" id="masterPlay"></i>
+        <i class="fa-solid fa-3x fa-forward-step to-make-smaller" id="next"></i>
+    </div>
+    <div class="songInfoContainer">
+
+        <div class="songInfo">
+            <img src="audio2.gif" id="gif">
+        </div>
+        <span id="masterSongName">Let Me Love You</span>
+    </div>
+        
+
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
